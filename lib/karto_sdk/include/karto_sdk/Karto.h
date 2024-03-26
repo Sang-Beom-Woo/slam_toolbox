@@ -4296,7 +4296,7 @@ private:
    */
   void Update()
   {
-    int residual = 1;
+    int residual = 2;
     if (GetIs360Laser()) {
       // residual is 0 by 360 lidar conventions
       residual = 0;
